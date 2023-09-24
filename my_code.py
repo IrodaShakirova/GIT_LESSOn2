@@ -13,3 +13,12 @@ for i in my_str:
             x[i] = 1
 
 print(x)
+# The last part, I guess...#
+max_value = 0
+max_key = ""
+for k, v in x.items:
+    if v > max_value:
+        max_value = v
+        max_key = k
+
+print("The commonly used char(letter) is {} and it's repeated {} times !".format(max_key, max_value))
